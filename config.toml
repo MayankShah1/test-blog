@@ -1,3 +1,46 @@
-baseURL = "http://example.org/"
+baseurl = "https://mayankshah1.github.io/"
+theme = "hugo-geo"
+relativeURLs = false
 languageCode = "en-us"
 title = "My New Hugo Site"
+disqusShortname = "shortcode-here"
+paginate = 5
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	showglobe = true
+
+	favicon = "favicon.ico"
+	
+	analytics = "code-here"
+
+	email = "mayankshah11996@gmail.com"
+
+	profilepic = "img/profPic.jpg"
+	
+	title = "MY NAME"
+	subtitle = "MY HUGO BLOG"
+
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/mayankshah1"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://www.linkedin.com/in/mayankshah11/"
+	
+	[[params.navlinks]]
+	name = "About"
+	url = "about/"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = "post/"
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorials/"
