@@ -21,8 +21,8 @@ paginate = 5
 
 	profilepic = "img/profPic.jpg"
 	
-	title = "MY NAME"
-	subtitle = "MY HUGO BLOG"
+	title = "Mayank Shah"
+	subtitle = "Welcome to my journey!"
 
 	# Social buttons for sidebar
 	# Each of these are optional
